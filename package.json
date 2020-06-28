@@ -1,0 +1,22 @@
+{
+  "name": "awesome-db-admin",
+  "version": "1.0.0",
+  "description": "A graceful database admin panel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annlix/awesome-db-admin.git"
+  },
+  "keywords": [
+    "database;admin;"
+  ],
+  "author": "Annlix",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Annlix/awesome-db-admin/issues"
+  },
+  "homepage": "https://github.com/Annlix/awesome-db-admin#readme"
+}
