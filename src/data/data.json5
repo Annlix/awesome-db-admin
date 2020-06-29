@@ -1,0 +1,34 @@
+{
+  "databaseTypes": [
+    {
+      "id": 1,
+      "name": "MySQL",
+      "value": "mysql"
+    },
+    {
+      "id": 2,
+      "name": "SQLite",
+      "value": "sqlite"
+    },
+    {
+      "id": 3,
+      "name": "MariaDB",
+      "value": "mariadb"
+    },
+    {
+      "id": 4,
+      "name": "Oracle",
+      "value": "oracle"
+    },
+    {
+      "id": 5,
+      "name": "PostgreSQL",
+      "value": "postgresql"
+    },
+    {
+      "id": 6,
+      "name": "SQL Server",
+      "value": "sqlserver"
+    }
+  ]
+}

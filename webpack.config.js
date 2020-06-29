@@ -39,13 +39,27 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+      {
+        test: /\.json5$/i,
+        loader: [
+          'json5-loader'
+        ],
       }
     ]
   },
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugon({
-      title: '管理输出',
+      title: 'ADA',
       template: path.resolve(__dirname, 'src/template/index.hbs')
     })
   ]

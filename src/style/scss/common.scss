@@ -1,0 +1,12 @@
+.fullscreen {
+
+}
+.fullscreen-height {
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-y: hidden;
+  &:hover {
+    overflow-y: auto;
+  }
+}
